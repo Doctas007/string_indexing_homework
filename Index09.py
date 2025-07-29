@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if len(s)==1:
+        return int(s)
+    else:
+        return -1
+print(main('3'))    
+    
